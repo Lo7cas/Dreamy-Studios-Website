@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games we offer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background-color: rgba(50, 50, 50, 0.9);
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 3px 3px 10px rgb(155, 155, 155);
+        }
+
+        .icon-left {
+            width: 60px;
+            height: 60px;
+            margin: 0 50px;
+            transform: rotate(7deg);
+            border-radius: 20%;
+        }
+
+        .icon-right {
+            width: 60px;
+            height: 60px;
+            margin: 0 50px;
+            transform: rotate(-7deg);
+            border-radius: 20%;
+        }
+
+        .game-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            padding: 15px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 500px;
+            border: 2px solid white;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .game-button img {
+            width: 60px;
+            height: 60px;
+            margin-right: 15px;
+        }
+
+        .parkour-button {
+    text-shadow:
+                 3px 3px 5px #71a7ff,
+                 3px 3px 7px #83ff94,
+                 3px 3px 9px #ffe079,
+                 3px 3px 11px #ffaa65,
+                 3px 3px 13px #ff2828;
+}
+
+
+        .duck-button {
+            text-shadow: 3px 3px 10px #fff171;
+        }
+
+        .event-button {
+            text-shadow: 3px 3px 10px #ff5454;
+        }
+
+        .dreamy-button {
+            text-shadow: 3px 3px 10px #b2ff94;
+        }
+
+        .parkour-button:hover {
+    background: linear-gradient(90deg, rgba(113, 167, 255, 0.8), rgba(131, 255, 148, 0.8), rgba(255, 224, 121, 0.8), rgba(255, 170, 101, 0.8), rgba(255, 40, 40, 0.8));
+    transform: scale(1.1);
+}
+
+.duck-button:hover {
+    background: linear-gradient(180deg, rgba(255, 232, 130, 0.8), rgba(255, 181, 44, 0.8));
+    transform: scale(1.1);
+}
+
+.event-button:hover {
+    background: linear-gradient(180deg, rgba(255, 152, 35, 0.8), rgba(255, 47, 47, 0.8));
+    transform: scale(1.1);
+}
+
+.dreamy-button:hover {
+    background: linear-gradient(180deg, rgba(195, 255, 176, 0.8), rgba(82, 255, 30, 0.8));
+    transform: scale(1.1);
+}
+
+        .back-button {
+            display: inline-block;
+            font-size: 1.2rem;
+            padding: 15px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 500px;
+            border: 2px solid white;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-shadow: 3px 3px 10px rgb(136, 136, 136);
+        }
+
+        .back-button:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .icon-left, .icon-right {
+                width: 40px;
+                height: 40px;
+            }
+            .game-button {
+                font-size: 1rem;
+                padding: 10px;
+            }
+            .game-button img {
+                width: 40px;
+                height: 40px;
+            }
+            .back-button {
+                font-size: 1rem;
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            .icon-left, .icon-right {
+                width: 30px;
+                height: 30px;
+            }
+            .game-button {
+                font-size: 0.9rem;
+                padding: 8px;
+            }
+            .game-button img {
+                width: 30px;
+                height: 30px;
+            }
+            .back-button {
+                font-size: 0.9rem;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+        <img src="Icon.png" alt="Icon" class="icon-left">
+        Games we offer
+        <img src="Icon.png" alt="Icon" class="icon-right">
+    </h1>
+
+    <a href="https://www.roblox.com/games/17832319185/IMPROVED-PARKOUR-SYSTEM-Parkour-Sandbox-In-Dev" class="game-button parkour-button">
+        <img src="Parkouricon.png" alt="Parkour Icon">
+        Parkour Sandbox
+    </a>
+
+    <a href="https://www.roblox.com/games/16151346630/Duck-Clicker" class="game-button duck-button">
+        <img src="Duckicon.png" alt="Duck Icon">
+        Duck Clicker
+    </a>
+
+    <a href="https://www.roblox.com/games/15652948058/Event-Mania" class="game-button event-button">
+        <img src="Eventicon.png" alt="Event Icon">
+        Event Mania
+    </a>
+
+    <a href="https://www.roblox.com/games/16922606548/Dreamys-RMG" class="game-button dreamy-button">
+        <img src="RMGicon.png" alt="Dreamy Icon">
+        Dreamy's RMG
+    </a>
+
+    <a href="index.html" class="back-button">Back to the main page</a>
+
+</body>
+</html>
